@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/taymo/Desktop/Taylor/College/Auburn/Comp$ 3000/final.project/outline/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/taymo/Desktop/Taylor/College/Auburn/Comp$ 3000/final.project/Final$ Project/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target final_project
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/taymo/Desktop/Taylor/College/Auburn/Comp$ 3000/f
 
 build cmake_object_order_depends_target_final_project: phony || CMakeFiles/final_project.dir
 
-build CMakeFiles/final_project.dir/main.cpp.obj: CXX_COMPILER__final_project_Debug C$:/Users/taymo/Desktop/Taylor/College/Auburn/Comp$ 3000/final.project/outline/main.cpp || cmake_object_order_depends_target_final_project
+build CMakeFiles/final_project.dir/main.cpp.obj: CXX_COMPILER__final_project_Debug C$:/Users/taymo/Desktop/Taylor/College/Auburn/Comp$ 3000/final.project/Final$ Project/main.cpp || cmake_object_order_depends_target_final_project
   DEP_FILE = CMakeFiles\final_project.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\final_project.dir
@@ -81,7 +81,7 @@ build final_project.exe: CXX_EXECUTABLE_LINKER__final_project_Debug CMakeFiles/f
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\outline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\Final Project\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\outline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\outline" -B"C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\outline\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\Final Project\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\Final Project" -B"C:\Users\taymo\Desktop\Taylor\College\Auburn\Comp 3000\final.project\Final Project\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build final_project: phony final_project.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/outline/cmake-build-debug
+# Folder: C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/Final Project/cmake-build-debug
 
 build all: phony final_project.exe
 

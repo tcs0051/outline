@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/outline
+# Install script for directory: C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/Final Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/outline/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/taymo/Desktop/Taylor/College/Auburn/Comp 3000/final.project/Final Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
